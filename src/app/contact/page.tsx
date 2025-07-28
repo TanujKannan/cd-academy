@@ -14,12 +14,9 @@ import {
   Clock, 
   Send, 
   MessageSquare, 
-  Calendar,
   Users,
   Star,
   CheckCircle,
-  Zap,
-  Rocket,
   Heart,
   BookOpen,
   Target,
@@ -55,7 +52,7 @@ const contactInfo = [
   {
     icon: Clock,
     title: "Office Hours",
-    description: "We're here when you need us",
+    description: "We&apos;re here when you need us",
     value: "Mon-Fri: 8AM-8PM, Sat: 9AM-5PM",
     color: "from-purple-500 to-purple-600",
     action: "Schedule Session",
@@ -86,7 +83,7 @@ const quickActions = [
   },
   {
     title: "Success Stories",
-    description: "See how we've helped others",
+    description: "See how we&apos;ve helped others",
     icon: Star,
     color: "from-purple-500 to-purple-600",
     href: "/about",
@@ -128,7 +125,7 @@ export default function ContactPage() {
       });
 
       if (response.ok) {
-        toast.success("Thank you for your message! We'll be in touch soon.");
+        toast.success("Thank you for your message! We&apos;ll be in touch soon.");
         setFormData({
           name: "",
           email: "",
@@ -165,14 +162,14 @@ export default function ContactPage() {
         <div className="animate-fade-in-up">
           <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-2 rounded-full text-sm font-medium mb-6">
             <MessageSquare className="h-4 w-4" />
-            Let's Start Your Journey
+            Let&apos;s Start Your Journey
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-blue-900 mb-6">
             Get in Touch
           </h1>
           <p className="text-xl text-gray-600 max-w-[800px] mx-auto leading-relaxed">
-            Ready to transform your academic future? We're here to help you succeed. 
-            <span className="font-semibold text-blue-600"> Let's start the conversation!</span>
+            Ready to transform your academic future? We&apos;re here to help you succeed. 
+            <span className="font-semibold text-blue-600"> Let&apos;s start the conversation!</span>
           </p>
         </div>
       </section>
@@ -218,7 +215,7 @@ export default function ContactPage() {
               </div>
               <CardTitle className="text-2xl text-blue-900">Send Us a Message</CardTitle>
               <CardDescription className="text-gray-600 text-base">
-                Tell us about your academic goals and we'll create a personalized plan for you.
+                Tell us about your academic goals and we&apos;ll create a personalized plan for you.
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -363,7 +360,7 @@ export default function ContactPage() {
 
                 <div className="text-center text-sm text-gray-500">
                   <CheckCircle className="inline h-4 w-4 text-green-500 mr-1" />
-                  We'll respond within 24 hours
+                  We&apos;ll respond within 24 hours
                 </div>
               </form>
             </CardContent>
@@ -437,7 +434,7 @@ export default function ContactPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600">
-                Simply fill out our contact form or call us to schedule a free initial assessment. We'll create a personalized learning plan for you.
+                Simply fill out our contact form or call us to schedule a free initial assessment. We&apos;ll create a personalized learning plan for you.
               </p>
             </CardContent>
           </Card>
@@ -467,7 +464,7 @@ export default function ContactPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600">
-                Absolutely! We offer a free trial session so you can experience our teaching style and see if we're the right fit for your needs.
+                Absolutely! We offer a free trial session so you can experience our teaching style and see if we&apos;re the right fit for your needs.
               </p>
             </CardContent>
           </Card>

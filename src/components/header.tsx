@@ -19,8 +19,6 @@ import {
   Users, 
   Calendar,
   Phone,
-  Mail,
-  MapPin,
   Clock,
   Star,
   Zap,

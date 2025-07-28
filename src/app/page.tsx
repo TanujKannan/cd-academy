@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { CheckCircle, Star, TrendingUp, Users, Award, Clock, BookOpen, Target, Brain, Calendar, FileText, Download, Calculator, PenTool, GraduationCap, MapPin, DollarSign, Send, MessageSquare, Heart, Zap, Rocket, Trophy, Lightbulb, Bookmark, Play, Pause, FastForward } from "lucide-react";
+import { CheckCircle, Star, TrendingUp, Users, Award, Clock, BookOpen, Target, Brain, Heart, Zap, Rocket, Trophy, Lightbulb, Bookmark, Play, Send, MessageSquare } from "lucide-react";
 
 const features = [
   {
@@ -42,7 +42,7 @@ const testimonials = [
   {
     name: "Michael T.",
     grade: "College Freshman",
-    content: "My daughter's confidence in math has improved tremendously since starting with CD Academy.",
+    content: "My daughter&apos;s confidence in math has improved tremendously since starting with CD Academy.",
     rating: 5,
     improvement: "A+ in Calculus",
     avatar: "MT",
@@ -243,7 +243,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-700 text-base leading-relaxed italic">
-                  "{testimonial.content}"
+                  &quot;{testimonial.content}&quot;
                 </CardDescription>
               </CardContent>
             </Card>
